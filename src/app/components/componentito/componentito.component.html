@@ -1,0 +1,5 @@
+<p>{{ message }}</p>
+
+<strong>User Name: {{ (user$ | async)?.name }}</strong> <br />
+<button type="button" (click)="setUserName()">Set user name</button>
+<ng-content />

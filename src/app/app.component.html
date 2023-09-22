@@ -2,6 +2,9 @@
   <button (click)="handleClick()">Click</button>
   <p>{{ message }}</p>
 </app-componentito>
+<ng-container *ngIf="showComponentTest">
+  <app-test></app-test>
+</ng-container>
 
 <!-- Composition Pattern -->
 
